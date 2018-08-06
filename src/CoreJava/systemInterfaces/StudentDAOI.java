@@ -4,6 +4,6 @@ import CoreJava.Models.Student;
 
 public interface StudentDAOI {
 
-	public Student getStudentByGmail(String email);
+	 Student getStudentByGmail(String email);
 	
 }

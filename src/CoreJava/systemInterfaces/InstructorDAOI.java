@@ -1,14 +1,18 @@
 package CoreJava.systemInterfaces;
 
+import java.util.List;
+
+import CoreJava.Models.Instructor;
+
 public interface InstructorDAOI {
 
 	
-	public List getAllInstructors() {
+	List<Instructor> getAllInstructors() {
 		
 	}
 	//CHECK FOR CORRECTNESS
 	
-	public Instructor getInstructoByGmail(String email) {
+	 Instructor getInstructoByGmail(String email) {
 		
 	}
 	
