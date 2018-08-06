@@ -8,12 +8,12 @@ import CoreJava.systemInterfaces.InstructorDAOI;
 public class InstructorDAO implements InstructorDAOI{
 
 	
-	List<Instructor> getAllInstructors(){
+	public List<Instructor> getAllInstructors(){
 		/*This method takes no parameter and returns 
 		 * every Instructor in the database.*/
 	}
 	
-	Instructor getInstructoByGmail(String email) {
+	public Instructor getInstructoByGmail(String email) {
 		/*This method takes a String as a parameter and 
 		queries the database for an Instructor with such 
 		an email and returns an Instructor Object*/

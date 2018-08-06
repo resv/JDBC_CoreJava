@@ -13,7 +13,7 @@ public class CourseDAO implements CourseDAOI{
 	}
 	
 	
-	List<Course> getCourseByInstructor(int instructor_id){
+	public List<Course> getCourseByInstructor(int instructor_id){
 		/*This method takes an int as a parameter and 
 		queries the database for all the courses one 
 		instructor is assigned to.*/
