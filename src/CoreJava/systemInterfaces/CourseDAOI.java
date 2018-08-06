@@ -1,13 +1,18 @@
 package CoreJava.systemInterfaces;
 
+import java.util.List;
+
+import CoreJava.Models.Course;
+
 public interface CourseDAOI {
 
 	
-	public List getAllCourses() {
+	List<Course> getAllCourses() {
 		
 	}
-	//CHECK FOR CORRECTNESS
-	public List getCourseByInstructor(int instructor_id) {
+	
+	
+	List<Course> getCourseByInstructor(int instructor_id) {
 		
 	}
 	

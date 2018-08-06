@@ -1,15 +1,18 @@
 package CoreJava.systemInterfaces;
 
+import java.util.List;
+
+import CoreJava.Models.Attending;
+
 public interface AttendingDAOI {
 
-	public int registerStudentToCourse(Student student, Course course) {
+	int registerStudentToCourse(Student student, Course course) {
 		
 	}
 	
-	//CHECK FOR CORRECTNESS
 	
 	
-	public List getStudentCourse(int student_id) {
+	 List<Attending> getStudentCourse(int student_id) {
 		
 	}
 	
