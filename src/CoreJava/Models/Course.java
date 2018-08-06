@@ -4,9 +4,9 @@ public class Course {
 	
 	
 	//INSTANCIATE VARIABLES AND DATA TYPES
-	private int course_id;
+	private int course_id = 0;
 	private String course_name;
-	private double minimum_gpa;
+	private double minimum_gpa = 0;
 	
 
 	//CONSTRUCTOR DEFAULT WITH NO FIELDS
@@ -16,7 +16,6 @@ public class Course {
 	
 	//CONSTRUCTORS WITH FIELDS
 	public Course(int course_id, String course_name, double minimum_gpa) {
-		
 		this.course_id = course_id;
 		this.course_name = course_name;
 		this.minimum_gpa = minimum_gpa;

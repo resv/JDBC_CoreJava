@@ -8,7 +8,7 @@ public class Instructor {
 	private String full_name;
 	private String email;
 	private String speciality;
-	private int admin_role;
+	private int admin_role = 0;
 	private String pass;
 	
 	

@@ -5,7 +5,7 @@ public class Teaching {
 	
 	//INSTANCIATE VARIABLES AND DATA TYPES
 	private String course_name;
-	private double minimum_gpa;
+	private double minimum_gpa = 0;
 	private String full_name;
 	private String email;
 	
@@ -17,7 +17,6 @@ public class Teaching {
 	
 	//CONSTRUCTORS WITH FIELDS
 	public Teaching(String course_name, double minimum_gpa, String full_name, String email) {
-		super();
 		this.course_name = course_name;
 		this.minimum_gpa = minimum_gpa;
 		this.full_name = full_name;
