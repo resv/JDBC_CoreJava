@@ -1,10 +1,13 @@
 package CoreJava.DAO;
 
+import java.util.List;
+
+import CoreJava.Models.Course;
 import CoreJava.systemInterfaces.CourseDAOI;
 
 public class CourseDAO implements CourseDAOI{
 
-	List<Course> getAllCourses(){
+	public List<Course> getAllCourses(){
 		/*This method takes no parameter and returns 
 		every Course in the database.*/
 	}

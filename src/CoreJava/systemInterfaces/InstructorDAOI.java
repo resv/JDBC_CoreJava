@@ -6,14 +6,8 @@ import CoreJava.Models.Instructor;
 
 public interface InstructorDAOI {
 
+	List<Instructor> getAllInstructors();
 	
-	List<Instructor> getAllInstructors() {
-		
-	}
-	//CHECK FOR CORRECTNESS
-	
-	 Instructor getInstructoByGmail(String email) {
-		
-	}
+	Instructor getInstructoByGmail(String email);
 	
 }

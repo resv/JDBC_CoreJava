@@ -6,14 +6,8 @@ import CoreJava.Models.Course;
 
 public interface CourseDAOI {
 
+	List<Course> getAllCourses();
 	
-	List<Course> getAllCourses() {
-		
-	}
-	
-	
-	List<Course> getCourseByInstructor(int instructor_id) {
-		
-	}
+	List<Course> getCourseByInstructor(int instructor_id);
 	
 }
