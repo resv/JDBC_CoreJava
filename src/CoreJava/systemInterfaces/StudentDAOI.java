@@ -1,9 +1,9 @@
 package CoreJava.systemInterfaces;
 
+import CoreJava.Models.Student;
+
 public interface StudentDAOI {
 
-	getStudentByGmail(String email){
-		return student;
-	}
+	public Student getStudentByGmail(String email);
 	
 }
