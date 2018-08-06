@@ -3,9 +3,9 @@ package CoreJava.DAO;
 import java.util.List;
 
 import CoreJava.Models.Attending;
+import CoreJava.Models.Course;
+import CoreJava.Models.Student;
 import CoreJava.systemInterfaces.AttendingDAOI;
-import CoreJava.systemInterfaces.Course;
-import CoreJava.systemInterfaces.Student;
 
 public class AttendingDAO implements AttendingDAOI{
 
