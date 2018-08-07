@@ -5,7 +5,7 @@ public class Teaching {
 	
 	//INSTANCIATE VARIABLES AND DATA TYPES
 	private String course_name;
-	private double minimum_gpa = 0;
+	private double minimum_gpa;
 	private String full_name;
 	private String email;
 	

@@ -4,9 +4,9 @@ public class Course {
 	
 	
 	//INSTANCIATE VARIABLES AND DATA TYPES
-	private int course_id = 0;
+	private int course_id;
 	private String course_name;
-	private double minimum_gpa = 0;
+	private double minimum_gpa;
 	
 
 	//CONSTRUCTOR DEFAULT WITH NO FIELDS

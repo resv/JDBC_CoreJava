@@ -9,7 +9,7 @@ public class Student {
 	private String email;
 	private double gpa;
 	private String pass;
-	private int Student_role;
+	private int Student_role = -1;
 	
 	
 	//CONSTRUCTOR DEFAULT WITH NO FIELDS
