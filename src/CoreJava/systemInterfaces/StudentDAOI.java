@@ -22,6 +22,6 @@ public interface StudentDAOI {
 		 }
 	 }
 	 
-	 static final String getStudentbyLastName = "SELECT * FROM STUDENT WHERE EMAIL=?";
+	 static final String getStudentByEmail = "SELECT * FROM STUDENT WHERE EMAIL=?";
 	 
 }
