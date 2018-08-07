@@ -1,9 +1,8 @@
 package CoreJava.Models;
 
 public class Student {
-	
-	
-	//INSTANCIATE VARIABLES AND DATA TYPES
+
+	//VARIABLES
 	private int student_id;
 	private String full_name;
 	private String email;
@@ -11,14 +10,13 @@ public class Student {
 	private String pass;
 	private int Student_role = -1;
 	
-	
-	//CONSTRUCTOR DEFAULT WITH NO FIELDS
+	//DEFAULT CONSTRUCTOR
 	public Student() {
 	}
 
-	
 	//CONSTRUCTOR WITH FIELDS
 	public Student(int student_id, String full_name, String email, double gpa, String pass, int student_role) {
+		super();
 		this.student_id = student_id;
 		this.full_name = full_name;
 		this.email = email;
@@ -26,7 +24,6 @@ public class Student {
 		this.pass = pass;
 		Student_role = student_role;
 	}
-	
 	
 	//GETTERS AND SETTERS
 	public int getStudent_id() {
